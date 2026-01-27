@@ -1,0 +1,15 @@
+# Huppert MCP Server - Python Dependencies
+# 安装命令: pip install -r requirements.txt
+
+# MCP Server Framework
+mcp[cli]>=1.0.0
+
+# HTTP Client (dependency of mcp)
+httpx>=0.28.0
+
+# Data Validation (dependency of mcp)
+pydantic>=2.10.0
+
+# 注意：
+# - 建议使用 Python 3.10+
+# - 建议在虚拟环境中安装

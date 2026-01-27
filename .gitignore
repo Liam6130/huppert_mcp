@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+nirs_mcp_env/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# MCP cache (if any)
+.mcp_cache/
+
+# Test outputs
+tests/__pycache__/
+tests/*.pyc
+
+# Generated configs
+config.json
+cursor_mcp_config.json
+
+# Distribution packages
+*.tar.gz
+*.zip
+*.sha256
